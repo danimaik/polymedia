@@ -151,3 +151,5 @@ var w = {
     }
   }
 }
+
+export default w;

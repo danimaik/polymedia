@@ -1,0 +1,33 @@
+{
+  "name": "polymedia",
+  "version": "1.0.0",
+  "description": "В файле `visiologyBrowsers.js` находится переменная `w`, содержащая структуру данных с информацией о рынке браузеров (`w->series->data`), вместе со служебными данными (нерелевантными для данной задачи).",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorGorbunov/polymedia-js-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgorGorbunov/polymedia-js-assignment/issues"
+  },
+  "homepage": "https://github.com/IgorGorbunov/polymedia-js-assignment#readme",
+  "dependencies": {
+    "highcharts": "^10.2.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^9.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
